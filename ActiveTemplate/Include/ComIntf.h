@@ -1,4 +1,4 @@
-#ifndef __FTS_COM_INF__
+ï»¿#ifndef __FTS_COM_INF__
 #define __FTS_COM_INF__
 
 #include "SysCall.h"
@@ -6,9 +6,9 @@
 namespace FTS
 {
 	/**
-	 * ÈôÎª InterfaceID£¬	ÔòÔÚ Data1 ÉÏµİÔö
-	 * ÈôÎª ClassID£¬		ÔòÔÚ Data2 ÉÏµİÔö
-	 * IUnknown ÒÑÕ¼ÓÃ 0x00000000-0x0000
+	 * è‹¥ä¸º InterfaceIDï¼Œ	åˆ™åœ¨ Data1 ä¸Šé€’å¢
+	 * è‹¥ä¸º ClassIDï¼Œ		åˆ™åœ¨ Data2 ä¸Šé€’å¢
+	 * IUnknown å·²å ç”¨ 0x00000000-0x0000
 	 */
 	extern "C"
 	typedef struct IID

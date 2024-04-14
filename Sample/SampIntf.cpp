@@ -1,4 +1,4 @@
-#include "SampIntf.h"
+﻿#include "SampIntf.h"
 
 namespace FTS
 {

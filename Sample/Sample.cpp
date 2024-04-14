@@ -1,4 +1,4 @@
-#include "Sample.h"
+ï»¿#include "Sample.h"
 #include <stdio.h>
 
 namespace FTS
@@ -8,12 +8,12 @@ namespace FTS
 
 	STDFUNCIMPL Sample::FinalConstruct()
 	{
-		// ¹¹Ôì²ÎÊýµÄ»ñÈ¡
+		// æž„é€ å‚æ•°çš„èŽ·å–
 		FSampleDesc* pDesc = (FSampleDesc*)m_pvDesc;
 		m_dwTestData = pDesc->dwData;
 		m_dwTestData *= 2;
 
-		// ¾ÛºÏ¶ÔÏóµÄ¹¹Ôì
+		// èšåˆå¯¹è±¡çš„æž„é€ 
 		CreateSample1AggInstance(GetControllingIUnk(), IID_IUnknown, PPV_ARG(&m_pSample1));
 
 		return HR_OK;
@@ -21,7 +21,7 @@ namespace FTS
 
 	STDFUNCIMPL Sample::FinalRelease()
 	{
-		// ¾ÛºÏ¶ÔÏóµÄÎö¹¹
+		// èšåˆå¯¹è±¡çš„æžæž„
 		m_pSample1->Release();
 		return HR_OK;
 	}

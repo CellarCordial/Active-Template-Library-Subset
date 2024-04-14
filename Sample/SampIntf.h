@@ -1,4 +1,4 @@
-#ifndef __SAMP_INTF__
+﻿#ifndef __SAMP_INTF__
 #define __SAMP_INTF__
 
 #include "../ActiveTemplate/Include/ComIntf.h"

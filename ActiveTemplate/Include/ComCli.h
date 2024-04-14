@@ -1,4 +1,4 @@
-#ifndef __FTS_COM_CLI__
+﻿#ifndef __FTS_COM_CLI__
 #define __FTS_COM_CLI__
 
 #include "SysCall.h"

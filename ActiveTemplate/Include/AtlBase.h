@@ -1,4 +1,4 @@
-#ifndef __FTS_ATL_BASE__
+ï»¿#ifndef __FTS_ATL_BASE__
 #define __FTS_ATL_BASE__
 
 #include "ComIntf.h"
@@ -76,7 +76,7 @@ namespace FTS
 		static const FTS::FIntfMapEntry pEntries[] = {
 #endif
 
-// Ò»¶¨Òª°´¼Ì³ĞË³ĞòĞ´
+// ä¸€å®šè¦æŒ‰ç»§æ‰¿é¡ºåºå†™
 #ifndef INTERFACE_ENTRY
 #define	INTERFACE_ENTRY(iid, x)							\
 	{													\
@@ -86,7 +86,7 @@ namespace FTS
 	},
 #endif
 
-// ¾ÛºÏÒªÇóÍâ²¿¶ÔÏóÓĞÄÚ²¿¶ÔÏóµÄÖ¸Õë
+// èšåˆè¦æ±‚å¤–éƒ¨å¯¹è±¡æœ‰å†…éƒ¨å¯¹è±¡çš„æŒ‡é’ˆ
 #ifndef INTERFACE_ENTRY_AGGREGATE
 #define INTERFACE_ENTRY_AGGREGATE(iid, x)				\
 	{													\

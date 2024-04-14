@@ -1,4 +1,4 @@
-#include "../Include/ComIntf.h"
+﻿#include "../Include/ComIntf.h"
 
 namespace FTS
 {

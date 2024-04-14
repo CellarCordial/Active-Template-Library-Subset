@@ -1,4 +1,4 @@
-#ifndef __FTS_ATL_COM__
+ï»¿#ifndef __FTS_ATL_COM__
 #define __FTS_ATL_COM__
 
 #include "AtlBase.h"
@@ -682,7 +682,7 @@ namespace FTS
 	public:
 		typedef Object	_Object;
 
-		// Ä¬ÈÏÔÊÐí£¬Èô²»ÔÊÐí£¬ÔòÔÚ×Ô¼ºÊµÏÖµÄÀàÀïÊ¹ÓÃDECLARE_NO_AGGREGATE
+		// é»˜è®¤å…è®¸ï¼Œè‹¥ä¸å…è®¸ï¼Œåˆ™åœ¨è‡ªå·±å®žçŽ°çš„ç±»é‡Œä½¿ç”¨DECLARE_NO_AGGREGATE
 		DECLARE_ALLOW_AGGREGATE(_Object)
 
 		static CREFCLSID STDFUNCCALLTYPE GetCLSID() noexcept

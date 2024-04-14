@@ -1,4 +1,4 @@
-#ifndef __FTS_SYS_CALL__
+﻿#ifndef __FTS_SYS_CALL__
 #define __FTS_SYS_CALL__
 
 #if defined(WIN32) || defined(_WIN32)

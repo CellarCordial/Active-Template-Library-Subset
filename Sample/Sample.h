@@ -1,4 +1,4 @@
-#ifndef __SAMPLE__
+ï»¿#ifndef __SAMPLE__
 #define __SAMPLE__
 
 #include "../ActiveTemplate/Include/AtlCom.h"
@@ -7,7 +7,7 @@
 
 namespace FTS
 {
-	// ¾ÛºÏ¶ÔÏó
+	// èšåˆå¯¹è±¡
 	extern "C" const CLSID CLSID_Sample1;
 	class Sample1 :
 		public TComObjectRoot<FComSingleThreadModel>,
@@ -28,7 +28,7 @@ namespace FTS
 	DECLARE_INSTANCE_CREATE_FUNC(Sample1)
 
 
-	// ¹¹Ôì²ÎÊı
+	// æ„é€ å‚æ•°
 	typedef struct FSampleDesc
 	{
 		UINT32 dwData;
