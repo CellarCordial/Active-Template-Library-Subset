@@ -2,9 +2,6 @@
 #define __FTS_ATL_BASE__
 
 #include "ComIntf.h"
-#include <cstring>
-#include <cstdio>
-#include <cstdint>
 
 #ifndef PPV_ARG
 #define PPV_ARG			(void**)
