@@ -7,7 +7,6 @@
 
 namespace FTS
 {
-	// 聚合对象
 	extern "C" const CLSID CLSID_Sample1;
 	class Sample1 :
 		public TComObjectRoot<FComSingleThreadModel>,
@@ -28,7 +27,6 @@ namespace FTS
 	DECLARE_INSTANCE_CREATE_FUNC(Sample1)
 
 
-	// 构造参数
 	typedef struct FSampleDesc
 	{
 		UINT32 dwData;
