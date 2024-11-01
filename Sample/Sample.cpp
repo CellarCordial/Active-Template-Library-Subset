@@ -8,12 +8,10 @@ namespace FTS
 
 	STDFUNCIMPL Sample::FinalConstruct()
 	{
-		// 构造参数的获取
 		FSampleDesc* pDesc = (FSampleDesc*)m_pvDesc;
 		m_dwTestData = pDesc->dwData;
 		m_dwTestData *= 2;
 
-		// 聚合对象的构造
 		CreateSample1AggInstance(GetControllingIUnk(), IID_IUnknown, PPV_ARG(&m_pSample1));
 
 		return HR_OK;
@@ -21,7 +19,6 @@ namespace FTS
 
 	STDFUNCIMPL Sample::FinalRelease()
 	{
-		// 聚合对象的析构
 		m_pSample1->Release();
 		return HR_OK;
 	}
